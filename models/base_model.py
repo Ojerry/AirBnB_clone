@@ -50,7 +50,7 @@ class BaseModel:
         return dict_repr
 
     def __str__(self):
-        """return the string formated message when instance is called"""
+        """String representation of BaseModel Class"""
         clName = self.__class__.__name__
         return "[{}] ({}) {}".format(clName, self.id, self.__dict__)
 
